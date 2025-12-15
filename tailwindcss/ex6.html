@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="tailwindlib.js "></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+
+        @layer components{
+            .picture-frame{
+                @apply h-[150px] w-[150px] rounded-full
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="h-[710px] bg-gray-200 flex justify-center items-center">
+    <div class="space-x-[-5px] rounded-lg flex justify-center items-center">
+        <img src="images/bag.webp" alt="" class="picture-frame" >
+        <img src="images/bag2.webp" alt="" class="picture-frame" >
+        <img src="images/bag3.webp" alt="" class="picture-frame" >
+        <img src="images/bag4.webp" alt="" class="picture-frame" >
+        <img src="images/bag6.webp" alt="" class="picture-frame" >
+    </div>
+</div>
+</body>
+</html>
