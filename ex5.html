@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="tailwindlib.js "></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities{
+            .content-auto{
+                content-visibility: auto;
+            }
+            .margin-top-mean{
+                margin-top: 1000px;
+            }
+        }
+
+        @layer components{
+            .picture-frame{
+                @apply h-[50px] w-[50px] rounded-full ring-1 ring-yellow-200
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="h-[710px] bg-gray-200 flex justify-center items-center ring-yellow 200">
+    <div class=" h-[100px]  bg-gray-400 space-x-[-15px] ring-1 p-[20px] rounded-lg 
+    flex justify-center items-center ring-yellow-200 shadow-shadow-2x1">
+        <img src="images/bag.webp" alt="" class="picture-frame" >
+        <img src="images/bag2.webp" alt="" class="picture-frame" >
+        <img src="images/bag3.webp" alt="" class="picture-frame" >
+        <img src="images/bag4.webp" alt="" class="picture-frame" >
+        <img src="images/bag6.webp" alt="" class="picture-frame" >
+        <img src="images/bag7.webp" alt="" class="picture-frame" >
+        <img src="images/bag8.jpg" alt="" class="picture-frame" >
+        <img src="images/bag5.webp" alt="" class="picture-frame" >
+        <img src="images/access6.webp" alt="" class="picture-frame" >
+        
+    </div>
+    <div class=" mt-[13%]">
+        <h1 class="ml-[-240%] text-4xl"><b>Nova</b></h1>
+    </div>
+</div>
+</body>
+</html>
